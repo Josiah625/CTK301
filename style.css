@@ -1,0 +1,27 @@
+
+#specialh {color:rgb(37, 68, 130);
+background-color: rgb(165, 165, 227); }
+
+.specialh {color: #ac3232;
+background-color: aqua;}
+
+.specialt { color: blanchedalmond;
+background-color: #d96767;}
+
+.div {color: aliceblue;
+background-color: #d9ca67;}
+
+.span {color: aqua;
+background-color: #430c0c;}
+
+a {
+    color: #ff0000;
+  }
+
+  a:visited {
+    color: #00ff37;
+  }  
+
+  a:hover {
+    color: #ffff00;
+  }        
