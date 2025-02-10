@@ -1,0 +1,15 @@
+.text {font-family: Arial, Helvetica, sans-serif;}
+
+header {background-color: rgb(85, 151, 205);}
+
+.orangec{color: orange;
+font-weight: bold;}
+.redc {color: red;}
+.greenc {background-color: rgb(93, 212, 93);}
+.bluec {color: blue;}
+a {color: green;}
+h1 {color: aliceblue;}
+h3 {background-color: yellow;}
+h4 {background-color: green; color: yellow;}
+ h5 {color: red;}
+div {background-color: yellow;}
