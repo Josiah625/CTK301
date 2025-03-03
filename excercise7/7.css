@@ -1,0 +1,73 @@
+body {background-image: url("a62.png");
+ }
+ .wrap {  margin: 1em auto;
+    padding: 0;
+    width: 1200px;
+    border-left: 5px solid black;
+    border-right: 5px solid black ;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-column-gap: 6px;
+  grid-row-gap: 6px;
+   
+  }
+
+  nav {
+    grid-column: span 3;
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav li {
+    border: 2px solid black;
+    width: 250px;
+    margin-right: 15px;
+    background-color: green;
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: green;
+    border: 2px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+
+  main img { grid-column: span 3;
+     float: right;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    
+  }
+  main
+
+  
+    .head {font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      font-weight: normal;
+    border-bottom: 5px solid black;
+    border-top: 5px;
+  margin-bottom: 10px;
+background-color: green;}
+
+      main h2 {font-family:Arial, Helvetica, sans-serif;
+        border-bottom: 5px black solid;
+      padding-bottom: 10px;
+    font-weight: normal;}
+    
+    footer{
+      background-color: green;
+      color: black;
+      grid-column: span 9;
+      padding-left: 24px;
+  }
+  
