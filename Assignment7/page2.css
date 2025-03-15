@@ -1,0 +1,109 @@
+body {background-color: grey; font-family: Arial, Helvetica, sans-serif; }
+
+
+
+.wrap {  margin: 1em auto;
+    padding: 0;
+  
+   width: 960px;
+    border: 5px solid rgb(21, 85, 158);
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+  
+    
+  }
+
+
+  header { grid-column: span 12;
+
+
+    padding-left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: skyblue margin: 10px; padding: 0px;}
+ 
+    h1 {font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      font-weight: normal;
+    display: flex;
+    width: 100%; border: rgb(21, 85, 158) 1px; margin: 0; padding: 0;
+    font-style: italic;
+    }
+  header h1 a{ text-decoration: none; color:skyblue;   width: 100%; margin: 0; padding: 0; border:  rgb(21, 85, 158) 1px ; display: block; padding: 20px;
+    }
+
+header h1 a:hover{  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: white;  }
+
+nav {
+    grid-column: span 12;
+    margin: 0;
+    display: flex; 
+    font-weight: bold;
+
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  nav li { border: 1px solid  rgb(21, 85, 158);
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    
+    display: flex;
+    color:skyblue;
+    display: inline-block}
+    
+    nav li a { color:skyblue;
+    text-decoration: none;
+    display:block;
+    padding:10px;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae); }
+
+    nav li a:hover{ background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: white;}
+
+main {grid-column: span 9; background-color: lightblue; padding-left: 10px; padding-right: 10px; }
+
+main p { text-align: justify ; width: 200px; font-weight: bold; padding-top: 20px;}
+
+main h2 {  border-bottom:  rgb(21, 85, 158) solid 3px  ;
+color:   rgb(21, 85, 158); font-weight: normal;}
+
+aside {grid-column: span 3; padding-left: 10px; padding-right: 10px;}
+aside h2 {  border-bottom:  rgb(21, 85, 158) solid 3px  ; color:   rgb(21, 85, 158); font-weight: normal;}
+.welcome { width: 200px;}
+
+.another {width: 100%; }
+   
+ 
+.weird { display: block; width: 100%;   }
+ .weird a{ padding-bottom: 10px; border-bottom: 1pz solid rgb(21, 85, 158); padding-bottom: 28.5px;}
+ .weird a:hover { text-decoration: none; background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);}
+aside img { float: right; margin-bottom: 5px; margin-right: 10px;
+
+}
+
+aside p a { text-decoration: none; color: red; font-weight: bold;}
+
+
+ 
+footer { background-color: green; color: white;
+  grid-column: span 12;
+  padding-left: 24px;
+  background-color: red;
+  border-top: 5px solid  rgb(21, 85, 158);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-style: italic;
+}
+
+
