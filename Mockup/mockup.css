@@ -48,7 +48,7 @@ color: white;
 }
 h1 iframe { text-decoration: none; }
 h1 a { text-decoration: none; color: white;}
-
+h1 a:visited { text-decoration: none; color: white;}
 
 
 nav { grid-column: span 3 ;  text-align: center; }
