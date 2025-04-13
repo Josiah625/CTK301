@@ -1,6 +1,6 @@
 body {
   background-color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 #wrapper {
@@ -21,33 +21,40 @@ body {
 }
 
 header { grid-column: span 8; 
- padding: 0 ; margin: 0;
+ padding: 0 ; margin: 0;    ;
 }
+ p {margin-top: 50px;padding: 10px; border-radius: 35px; }
+
+.textbox{ border: 2px solid ;}
+
 .circle {  height: 513px;
   width: 729px;
   background-color: #ffffff;
   border-radius: 50%;
-  display: inline-block; 
+  display: inline-block; box-shadow: 10px 10px 10px #8c8c8c
 }
 
 
 h1 {
   grid-column: span 1;
-  background-color: #432223;
-  color: white;
-  text-align: center;
+  background-color:#2f1718;
   padding: 0; 
   display: flex;
  
-  height: 1176px; 
- margin: 0;  }
-
+height: 1176px; 
+ margin: 0;  
+font-size: 80PX;
+color: white; 
+}
+h1 iframe { text-decoration: none; }
+h1 a { text-decoration: none; color: white;}
 
 
 
 nav { grid-column: span 3 ;  text-align: center; }
 nav ul { }
-nav li {  list-style-type: none; font-size: small;}
+nav li {  list-style-type: none; font-size: small;
+}
 nav a { text-decoration: none; }
 
 main { grid-column: span 8; 
@@ -71,6 +78,7 @@ nav a { color: #ffffff; font-size: large;}
   text-align: center;
   line-height: 50px; 
   border-radius: 50%; 
+  
  
 }
 
@@ -83,3 +91,11 @@ margin-top: 50px; padding-top: 50px;
 
 
 }
+
+nav li a { display: block;}
+nav li a:hover{ background-color: #2f1718; width: 150px;
+  height: 150px; 
+  border-radius: 50%; text-decoration: none; font-size: 2rem;}
+
+ 
+ 
