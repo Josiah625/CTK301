@@ -55,7 +55,7 @@ h1 a:visited { text-decoration: none; color: white;}
 
 
 nav { grid-column: span 3 ;  text-align: center; }
-nav ul { }
+
 nav li {  list-style-type: none; font-size: small;
 }
 nav a { text-decoration: none; }
