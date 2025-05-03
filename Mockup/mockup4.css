@@ -20,9 +20,12 @@ body {
    
   }
   
-  header { grid-column: span 8; 
+ 
+    header { grid-column: span 8; 
+     padding: 0 ; margin: 0;    
+    } 
   
-  } 
+  
    p {margin-top: 50px;padding: 10px; border-radius: 35px; font-size: 20px; }
   
   .textbox{ border: 2px solid ;}
