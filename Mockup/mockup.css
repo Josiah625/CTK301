@@ -42,12 +42,15 @@ h1 {
   grid-column: span 1;
   background-color:#432223;
   padding: 0; 
-  display: flex;
- width: min-content;
+ text-decoration: none;
+ font-weight: light;
+
 height: 1176px; 
  margin: 0;  
-font-size: 80PX;
-color:#432223; 
+font-size: 80px;
+color:#e5e3e3; 
+text-orientation: sideways;
+writing-mode: vertical-lr;
 }
 h1 iframe { text-decoration: none; }
 
@@ -58,24 +61,17 @@ nav { grid-column: span 3 ;  text-align: center; }
 
 nav li {  list-style-type: none; font-size: small;
 }
-nav a { text-decoration: none; }
+nav a { text-decoration: none; color: #ffffff; font-size: large;}
 
 main { grid-column: span 8; 
 }
-nav a { color: #ffffff; font-size: large;}
 
 
 
 
 
-.circlenav { height:150px;
-  width: 200px;
-  background-color: #432223;
- 
-  display: block;
- margin-bottom: 50px; 
 
-}
+
 
 
 
@@ -83,12 +79,15 @@ nav a { color: #ffffff; font-size: large;}
 
 nav li a { color:rgb(255, 255, 255);
   text-decoration: none;
+  background-color: #432223;
+  padding-top:10px;  display: block;  padding-bottom: 120px; 
+  ; padding-left: 65px; padding-right: 65px; 
 
-  padding:10px; }
+margin-bottom: 50px;}
   
 
   nav li a:hover{ background-color:#281415 ;
   color: white; padding-bottom: 120px; 
-  display: block; padding-left: 65px; padding-right: 65px;
+ ; padding-left: 65px; padding-right: 65px;  padding-top:10px;
 } 
  
